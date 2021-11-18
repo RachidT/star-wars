@@ -57,6 +57,7 @@ a {
     &.open {
       visibility: visible;
       opacity: 1;
+      background-color: rgba(0, 0, 0, 0.8);
       padding-top: 4rem;
 
       & li {
@@ -127,6 +128,7 @@ a {
 
 .close-button {
   display: none;
+  z-index: 10;
 
   @include respond('medium') {
     position: absolute;
@@ -163,7 +165,7 @@ a {
 
   @include respond('medium') {
     height: 50vmin;
-    transform: translate(-50%, -151%);
+    transform: translate(-50%, -100%);
     width: 100%;
     visibility: visible;
   }
@@ -213,7 +215,7 @@ a {
   height: 600px;
   width: 300px;
 
-  @include respond('medium') {
+  @include respond('large') {
     display: none;
   }
 }

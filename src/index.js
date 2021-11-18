@@ -9,7 +9,6 @@ icon.addEventListener('click',function(){
   icon.classList.add('hidden')
   close.classList.add('appear')
   menu.classList.add('open')
-  logo.classList.add('hide-logo')
 });
 
 close.addEventListener('click', function() {
@@ -21,11 +20,12 @@ close.addEventListener('click', function() {
 })
 
 window.addEventListener('scroll', function() {
-  if(window.scrollY > 800) {
+  if(window.scrollY > 475) {
     icon.classList.add('black')
     close.classList.add('black')
   } else {
     icon.classList.remove('black')
+    close.classList.remove('black')
   }
 
   if(window.scrollY > 900) {
