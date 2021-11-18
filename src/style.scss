@@ -1,0 +1,315 @@
+@import './mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0.8;
+  line-height: 5rem;
+
+  @include respond('medium') {
+    background-color: unset;
+  }
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  @include respond('medium') {
+    flex-direction: column;
+    visibility: hidden;
+    line-height: 1.5rem;
+    padding-top: -1rem;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+    & li {
+      margin-bottom: 1rem;
+    }
+
+    &.open {
+      visibility: visible;
+      opacity: 1;
+      padding-top: 4rem;
+
+      & li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.navbar-item {
+  color: white !important;
+  margin: 0 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  padding: 0 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+
+  &:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  &:hover:after {
+    color: white;
+    width: 100%;
+    left: 0;
+  }
+
+  @include respond('large') {
+    font-size: 0.75rem;
+  }
+
+  @include respond('medium') {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.burger-menu {
+  display: none;
+
+  @include respond('medium') {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 0.75rem;
+    filter: invert(100%) sepia(96%) saturate(16%) hue-rotate(237deg) brightness(103%) contrast(107%);
+
+    &.black {
+      filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(1deg) brightness(98%) contrast(102%);
+    }
+
+    &.hidden {
+      display: none;
+    }
+  }
+}
+
+.close-button {
+  display: none;
+
+  @include respond('medium') {
+    position: absolute;
+    display: none;
+    top: 0.75rem;
+    left: 1rem;
+    filter: invert(100%) sepia(96%) saturate(16%) hue-rotate(237deg) brightness(103%) contrast(107%);
+
+    &.black {
+      filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(1deg) brightness(98%) contrast(102%);
+    }
+
+    &.appear {
+      display: block;
+    }
+  }
+}
+
+.bg-header {
+  height: 100vh;
+  width: 100%;
+
+  @include respond('medium') {
+    height: 70vh;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+
+  @include respond('medium') {
+    height: 50vmin;
+    transform: translate(-50%, -151%);
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+.first-section {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  & .article-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  & .text {
+    width: 30rem;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+  }
+
+  & p {
+    padding-top: 1rem;
+  }
+
+  @include respond('medium') {
+    text-align: center;
+    padding-top: 0;
+
+    & p {
+      padding-top: 1rem;
+    }
+
+    & .text {
+      width: 100%;
+      font-size: 1.5rem;
+      margin-right: 0rem;
+      padding: 0 1rem;
+    }
+  }
+}
+
+.ad {
+  position: absolute;
+  top: 5rem;
+  right: 26rem;
+  height: 600px;
+  width: 300px;
+
+  @include respond('medium') {
+    display: none;
+  }
+}
+
+.third-section img {
+  width: 100%;
+}
+
+.fourth-section {
+  margin: auto;
+  padding-top: 2rem;
+  width: 55%;
+
+  & h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .container {
+    display: flex;
+    padding-top: 2rem;
+
+    & img {
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    @include respond('medium') {
+      display: block;
+    }
+  }
+
+  & p {
+    font-size: 1.25rem;
+
+    & span {
+      font-weight: 600;
+      font-style: italic;
+    }
+  }
+}
+
+.fifth-section {
+  background-image: url('assets/stormtroopers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3rem;
+  height: 16rem;
+}
+
+.footer {
+  background-image: url('assets/darthvader_2x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: grey;
+  padding: 2rem;
+
+  & .title {
+    text-align: center;
+    padding-bottom: 2rem;
+
+    & span {
+      font-weight: 600;
+    }
+  }
+
+  & .container {
+    display: flex;
+    justify-content: space-around;
+
+    & ul li {
+      padding: 1rem 0;
+      text-decoration: underline;
+      text-align: center;
+    }
+
+    @include respond('medium') {
+      position: relative;
+      padding-bottom: 6rem;
+
+      & ul li {
+        padding: 0.5rem 0;
+      }
+    }
+  }
+
+  & .social-links {
+    text-align: center;
+
+    & img {
+      padding: 0 0.2rem;
+    }
+
+    @include respond('medium') {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
