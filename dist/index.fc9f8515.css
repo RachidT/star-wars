@@ -7,6 +7,12 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  margin-bottom: 2rem;
 }
 
 li {
@@ -15,10 +21,7 @@ li {
 
 a {
   text-decoration: none;
-}
-
-a:visited {
-  color: inherit;
+  color: white;
 }
 
 .header {
@@ -27,12 +30,13 @@ a:visited {
   z-index: 2;
   background: black;
   opacity: 0.8;
-  line-height: 5rem;
+  padding: 1rem 0;
 }
 
 @media (max-width: 768px) {
   .header {
     background-color: unset;
+    padding: 0;
   }
 }
 
@@ -59,7 +63,7 @@ a:visited {
     visibility: visible;
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.8);
-    padding-top: 4rem;
+    padding-top: 2.5rem;
   }
   .navbar-items.open li {
     margin-bottom: 1rem;
@@ -67,13 +71,11 @@ a:visited {
 }
 
 .navbar-item {
-  color: white !important;
-  margin: 0 2rem;
+  color: white;
+  margin: 0 1rem;
   text-transform: uppercase;
   font-weight: 600;
   position: relative;
-  padding: 0 0.5rem;
-  padding-bottom: 0.5rem;
   font-size: 1.25rem;
 }
 
@@ -184,19 +186,16 @@ a:visited {
   padding-bottom: 4rem;
 }
 
-.first-section .article-container {
+.first-section .first-section-container {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .first-section .text {
   width: 30rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-right: 5rem;
-}
-
-.first-section p {
-  padding-top: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -209,15 +208,15 @@ a:visited {
   }
   .first-section .text {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 0rem;
     padding: 0 1rem;
   }
 }
 
 .ad {
-  position: absolute;
-  top: 5rem;
+  position: sticky;
+  top: 1rem;
   right: 26rem;
   height: 600px;
   width: 300px;
@@ -236,7 +235,7 @@ a:visited {
 .fourth-section {
   margin: auto;
   padding-top: 2rem;
-  width: 55%;
+  max-width: 53rem;
 }
 
 .fourth-section h1 {
@@ -244,24 +243,30 @@ a:visited {
   font-size: 2rem;
 }
 
-.fourth-section .container {
-  display: flex;
+.fourth-section .fourth-section-container {
   padding-top: 2rem;
 }
 
-.fourth-section .container img {
+.fourth-section .fourth-section-container img {
+  float: left;
   margin-right: 1rem;
-  margin-bottom: 1rem;
+}
+
+.fourth-section .fourth-section-container ul {
+  margin-top: 1rem;
 }
 
 @media (max-width: 768px) {
-  .fourth-section .container {
-    display: block;
+  .fourth-section .fourth-section-container {
+    margin: 0 auto;
+    width: 80%;
   }
-}
-
-.fourth-section p {
-  font-size: 1.25rem;
+  .fourth-section .fourth-section-container img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 }
 
 .fourth-section p span {
@@ -281,8 +286,8 @@ a:visited {
   background-image: url("darthvader_2x.bc6f76df.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: grey;
   padding: 2rem;
+  color: white;
 }
 
 .footer .title {
@@ -319,8 +324,12 @@ a:visited {
   text-align: center;
 }
 
+.footer .social-links ul {
+  display: flex;
+}
+
 .footer .social-links img {
-  padding: 0 0.2rem;
+  padding: 0 0.5rem;
 }
 
 @media (max-width: 768px) {

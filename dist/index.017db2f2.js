@@ -2,7 +2,6 @@ const icon = document.getElementById('icon-menu');
 const menu = document.getElementById('menu');
 const close = document.getElementById('close-icon');
 const logo = document.getElementById('logo');
-const ad = document.getElementById('ad');
 icon.addEventListener('click', function() {
     icon.classList.add('hidden');
     close.classList.add('appear');
@@ -22,14 +21,6 @@ window.addEventListener('scroll', function() {
     } else {
         icon.classList.remove('black');
         close.classList.remove('black');
-    }
-    if (window.scrollY > 900) {
-        ad.style.position = "fixed";
-        ad.style.top = "10rem";
-    }
-    if (window.scrollY > 1908 || window.scrollY < 900) {
-        ad.style.position = 'absolute';
-        ad.style.top = "5rem";
     }
 });
 const image = document.getElementsByClassName('bg-header');

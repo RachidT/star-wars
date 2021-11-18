@@ -6224,7 +6224,7 @@
 70/home/lsemon/star-wars/node_modules/@parcel/core/test/fixtures/context1637084994292077855 1
 70/home/lsemon/star-wars/node_modules/cosmiconfig/dist/ExplorerBase.d.ts1637084993944075421 0
 55/home/lsemon/star-wars/node_modules/nanoid/index.dev.js1637084993748074050 0
-46/home/lsemon/star-wars/dist/index.fc9f8515.css1637260045659705374 0
+46/home/lsemon/star-wars/dist/index.fc9f8515.css1637272687328122841 0
 41/home/lsemon/star-wars/node_modules/jsdom1637084993688073630 1
 70/home/lsemon/star-wars/node_modules/core-js/features/array/includes.js1637084994544079617 0
 53/home/lsemon/star-wars/node_modules/brorand/README.md1637084993408071672 0
@@ -7285,7 +7285,7 @@
 61/home/lsemon/star-wars/node_modules/binary-extensions/license1637084993304070944 0
 91/home/lsemon/star-wars/node_modules/ansi-escapes/node_modules/type-fest/source/mutable.d.ts1637084993892075057 0
 55/home/lsemon/star-wars/node_modules/@parcel/packager-js1637084993904075141 1
-27/home/lsemon/star-wars/dist1637260045679705397 1
+27/home/lsemon/star-wars/dist1637272687328122841 1
 48/home/lsemon/star-wars/node_modules/cssstyle/lib1637084994088076428 1
 112/home/lsemon/star-wars/node_modules/postcss-modules-local-by-default/node_modules/source-map/lib/mapping-list.js1637084993712073798 0
 74/home/lsemon/star-wars/node_modules/core-js/internals/use-symbol-as-uid.js1637084994632080232 0
@@ -7746,7 +7746,7 @@
 73/home/lsemon/star-wars/node_modules/postcss-discard-comments/package.json1637084993600073014 0
 47/home/lsemon/star-wars/node_modules/escape-html1637084993396071588 1
 62/home/lsemon/star-wars/node_modules/har-schema/lib/header.json1637084993508072371 0
-35/home/lsemon/star-wars/src/index.js1637258884845341695 0
+35/home/lsemon/star-wars/src/index.js1637271801148505647 0
 51/home/lsemon/star-wars/node_modules/nanoid/index.js1637084993776074246 0
 57/home/lsemon/star-wars/node_modules/domutils/package.json1637084993724073882 0
 92/home/lsemon/star-wars/node_modules/ansi-escapes/node_modules/type-fest/source/asyncify.d.ts1637084993592072958 0
@@ -7799,7 +7799,7 @@
 58/home/lsemon/star-wars/node_modules/is-bigint/package.json1637084993576072847 0
 52/home/lsemon/star-wars/node_modules/ajv/lib/ajv.d.ts1637084994184077099 0
 73/home/lsemon/star-wars/node_modules/es-abstract/5/ToPropertyDescriptor.js1637084994556079701 0
-49/home/lsemon/star-wars/dist/index.017db2f2.js.map1637252652038348481 0
+49/home/lsemon/star-wars/dist/index.017db2f2.js.map1637271801392506266 0
 69/home/lsemon/star-wars/node_modules/es-abstract/2021/ToPropertyKey.js1637084994556079701 0
 81/home/lsemon/star-wars/node_modules/cssstyle/lib/properties/textUnderlineColor.js1637084994072076316 0
 67/home/lsemon/star-wars/node_modules/caniuse-lite/data/regions/PM.js1637084994440078889 0
@@ -7984,7 +7984,7 @@
 64/home/lsemon/star-wars/node_modules/es-abstract/2017/ToUint32.js1637084994560079728 0
 45/home/lsemon/star-wars/node_modules/hash-base1637084993392071559 1
 40/home/lsemon/star-wars/node_modules/abab1637084993584072903 1
-38/home/lsemon/star-wars/dist/index.html1637252994147199171 0
+38/home/lsemon/star-wars/dist/index.html1637272441022937081 0
 72/home/lsemon/star-wars/node_modules/core-js/stable/regexp/constructor.js1637084994272077715 0
 65/home/lsemon/star-wars/node_modules/@parcel/transformer-babel/src1637084993852074777 1
 69/home/lsemon/star-wars/node_modules/@babel/core/lib/transform-file.js1637084994028076008 0
@@ -9411,7 +9411,7 @@
 53/home/lsemon/star-wars/node_modules/is-glob/README.md1637084993472072119 0
 81/home/lsemon/star-wars/node_modules/caniuse-lite/data/features/async-clipboard.js1637084993996075784 0
 90/home/lsemon/star-wars/node_modules/@parcel/node-resolver-core/test/fixture/nested/test.js1637084994176077043 0
-45/home/lsemon/star-wars/dist/index.017db2f2.js1637252652038348481 0
+45/home/lsemon/star-wars/dist/index.017db2f2.js1637271801388506256 0
 55/home/lsemon/star-wars/node_modules/isstream/LICENSE.md1637084993544072623 0
 63/home/lsemon/star-wars/node_modules/hmac-drbg/test/drbg-test.js1637084993576072847 0
 63/home/lsemon/star-wars/node_modules/function-bind/.editorconfig1637084993604073043 0
@@ -9614,7 +9614,7 @@
 81/home/lsemon/star-wars/node_modules/caniuse-lite/data/features/resource-timing.js1637084994448078945 0
 79/home/lsemon/star-wars/node_modules/caniuse-lite/data/features/accelerometer.js1637084993608073070 0
 62/home/lsemon/star-wars/node_modules/graceful-fs/graceful-fs.js1637084993392071559 0
-37/home/lsemon/star-wars/src/style.scss1637260061467724515 0
+37/home/lsemon/star-wars/src/style.scss1637272788524629970 0
 102/home/lsemon/star-wars/node_modules/postcss-modules/node_modules/source-map/dist/source-map.min.js.map1637084994036076064 0
 64/home/lsemon/star-wars/node_modules/es-abstract/2019/MakeDate.js1637084994420078750 0
 72/home/lsemon/star-wars/node_modules/caniuse-lite/data/features/webhid.js1637084994496079281 0
@@ -12300,7 +12300,7 @@
 84/home/lsemon/star-wars/node_modules/core-js/es/object/get-own-property-descriptor.js1637084994524079477 0
 67/home/lsemon/star-wars/node_modules/generic-names/generic-names.iml1637084993340071196 0
 63/home/lsemon/star-wars/node_modules/core-js/es/object/freeze.js1637084994500079309 0
-50/home/lsemon/star-wars/dist/index.fc9f8515.css.map1637260045663705379 0
+50/home/lsemon/star-wars/dist/index.fc9f8515.css.map1637272687328122841 0
 85/home/lsemon/star-wars/node_modules/core-js/es/object/get-own-property-descriptors.js1637084994524079477 0
 70/home/lsemon/star-wars/node_modules/core-js/features/function/index.js1637084994560079728 0
 63/home/lsemon/star-wars/node_modules/@parcel/bundler-default/src1637084993528072511 1
@@ -14863,7 +14863,7 @@
 63/home/lsemon/star-wars/node_modules/performance-now/license.txt1637084993572072818 0
 62/home/lsemon/star-wars/node_modules/@types/node/constants.d.ts1637084993876074945 0
 49/home/lsemon/star-wars/node_modules/terminal-link1637084993428071811 1
-37/home/lsemon/star-wars/src/index.html1637252994039198898 0
+37/home/lsemon/star-wars/src/index.html1637272440870936376 0
 72/home/lsemon/star-wars/node_modules/core-js/internals/object-iterator.js1637084994596079980 0
 60/home/lsemon/star-wars/node_modules/terminal-link/index.d.ts1637084993460072035 0
 71/home/lsemon/star-wars/node_modules/css-declaration-sorter/src/main.cjs1637084993552072678 0
